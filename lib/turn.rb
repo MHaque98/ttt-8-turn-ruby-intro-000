@@ -36,7 +36,7 @@ def turn(board)
   if valid_move?(board, index)
     move(board, index)
   else
-    turn(board)
     puts "Please try again"
+    turn(board)
   end
 end
