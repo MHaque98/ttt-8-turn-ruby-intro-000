@@ -37,7 +37,6 @@ def turn(board)
     move(board, index)
   else
     puts "Please try again"
-    display_board(board)
     turn(board)
   end
 end
