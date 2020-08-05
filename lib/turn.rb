@@ -26,4 +26,5 @@ def position_taken?(board, index)
 end
 
 def move(board, position, value = "X")
+  board[position] = value
 end
