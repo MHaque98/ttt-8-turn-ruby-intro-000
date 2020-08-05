@@ -37,5 +37,5 @@ def turn(board)
     #fd
   else
     put "Please try again"
-  
+
 end
